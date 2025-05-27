@@ -9,6 +9,9 @@ import org.testng.annotations.BeforeMethod;
 import com.demoqa.pages.HomePage;
 import com.saucedemo.pages.BasePage;
 
+import static com.saucedemo.pages.BasePage.delay;
+import static utilities.Utility.setUtilityDriver;
+
 public class BaseTest {
 
     //variables
@@ -28,11 +31,13 @@ public class BaseTest {
         driver.get(DEMOQA_URL);
         basePage = new BasePage();
         basePage.setDriver(driver);
+        setUtilityDriver();
         homePage = new HomePage(); //Instance 
     }
 
     @AfterClass
     public void tearDown(){
+        delay(3000);
         driver.quit();
     }
 }
