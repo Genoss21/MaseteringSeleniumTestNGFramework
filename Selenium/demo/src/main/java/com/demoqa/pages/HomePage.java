@@ -2,8 +2,9 @@ package com.demoqa.pages;
 
 import org.openqa.selenium.By;
 
+import com.base.BasePage;
 import com.demoqa.pages.Forms.FormsPage;
-import com.saucedemo.pages.BasePage;
+
 import static utilities.JavaScriptUtility.scrollToElementJS;
 
 public class HomePage extends BasePage {

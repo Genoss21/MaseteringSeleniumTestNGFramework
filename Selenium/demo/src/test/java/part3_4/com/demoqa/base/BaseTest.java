@@ -6,10 +6,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
+import com.base.BasePage;
 import com.demoqa.pages.HomePage;
-import com.saucedemo.pages.BasePage;
 
-import static com.saucedemo.pages.BasePage.delay;
+import static com.base.BasePage.delay;
 import static utilities.Utility.setUtilityDriver;
 
 public class BaseTest {
