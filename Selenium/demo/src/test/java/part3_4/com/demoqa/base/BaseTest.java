@@ -57,7 +57,7 @@ public class BaseTest {
                 // TODO: handle exception
                 throw new RuntimeException(e);
             }
-            System.out.println("Screenshot Located at: " + destination);;
+            System.out.println("Screenshot Located at: " + destination);
         }
     }
 
