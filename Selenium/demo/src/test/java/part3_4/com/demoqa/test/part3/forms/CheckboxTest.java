@@ -19,4 +19,5 @@ public class CheckboxTest extends BaseTest {
         Assert.assertFalse(isReadingCheckboxSelected, "Reading Checkbox is selected");
     }
 
+
 }
